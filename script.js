@@ -37,10 +37,19 @@
 //     console.log(`the value is ${i}`)
 // }
 
-for(let i=1; i<=20; i++){
-    if(i==5){
-        console.log("we finaly find the number 5")
-        continue;
-    }
-    console.log(`the value is ${i}`)
+// for(let i=1; i<=20; i++){
+//     if(i==5){
+//         console.log("we finaly find the number 5")
+//         continue;
+//     }
+//     console.log(`the value is ${i}`)
+// }
+
+let number = document.getElementsByClassName("number")[0]
+
+for(let n=1; n<=6; n++)
+{
+   
+    console.log(n)
+    number.innerText+=n + "\n" ;
 }
